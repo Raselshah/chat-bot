@@ -93,7 +93,7 @@ const Chat = () => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv);
 
-    const response = await fetch("http://localhost:7999", {
+    const response = await fetch("https://server-kohl-phi.vercel.app/", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
